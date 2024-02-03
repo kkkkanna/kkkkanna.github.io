@@ -1,0 +1,13 @@
+body {
+   background-color:black;
+   font-family:Helvetica;
+   color:white;
+   font-size:48px;
+}
+
+.logoFilter {
+   filter: brightness(80%);
+}
+.logoFilter:hover {
+   filter: initial;
+}
