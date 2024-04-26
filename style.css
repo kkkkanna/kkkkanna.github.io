@@ -1,13 +1,33 @@
 body {
-   background-color:black;
+   background-color:rgb(5,5,20);
    font-family:Helvetica;
    color:white;
-   font-size:48px;
+   font-size:30px;
+   transition:0.5s;
 }
 
 .logoFilter {
-   filter: brightness(80%);
+   filter:brightness(80%);
 }
 .logoFilter:hover {
-   filter: initial;
+   filter:initial;
+}
+
+.lightMode {
+   background-color:white;
+   color:black;
+   transition:0.5s;
+}
+.logoLightMode {
+   filter:brightness(50%);
+   transition:0.5s;
+}
+
+.logoLightMode:hover {
+   filter:brightness(0);
+}
+
+input[type='checkbox'] {
+   width:30px;
+   height:30px;
 }
